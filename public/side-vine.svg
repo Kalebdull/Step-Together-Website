@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 240" width="56" height="240">
+
+  <!-- Main flowing S-curve vine -->
+  <path d="M28,0 C36,26 50,54 50,74 C50,94 40,110 28,118 C16,126 6,142 6,162 C6,182 18,208 28,240"
+    fill="none" stroke="rgba(240,90,26,0.28)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right scroll curl at peak (~y=74) -->
+  <path d="M50,74 C56,62 55,48 48,42 C41,36 33,44 37,56"
+    fill="none" stroke="rgba(240,90,26,0.26)" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- Left scroll curl at trough (~y=162) -->
+  <path d="M6,162 C0,150 1,136 8,130 C15,124 23,132 19,144"
+    fill="none" stroke="rgba(240,90,26,0.26)" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- Small decorative branch — upper right (~y=36) -->
+  <path d="M41,36 C47,28 47,18 41,14 C35,10 29,17 33,27"
+    fill="none" stroke="rgba(240,90,26,0.18)" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Small decorative branch — lower left (~y=196) -->
+  <path d="M15,196 C9,188 9,178 15,174 C21,170 27,177 23,187"
+    fill="none" stroke="rgba(240,90,26,0.18)" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Peak dots -->
+  <circle cx="50" cy="74"  r="3.8" fill="rgba(240,90,26,0.30)"/>
+  <circle cx="6"  cy="162" r="3.8" fill="rgba(240,90,26,0.30)"/>
+
+  <!-- Branch tip dots -->
+  <circle cx="41" cy="36"  r="2.4" fill="rgba(240,90,26,0.24)"/>
+  <circle cx="15" cy="196" r="2.4" fill="rgba(240,90,26,0.24)"/>
+
+  <!-- Mid-vine crossover dot -->
+  <circle cx="28" cy="118" r="3"   fill="rgba(240,90,26,0.22)"/>
+
+  <!-- Tile-seam connection dots -->
+  <circle cx="28" cy="0"   r="2.2" fill="rgba(240,90,26,0.20)"/>
+  <circle cx="28" cy="240" r="2.2" fill="rgba(240,90,26,0.20)"/>
+
+</svg>
